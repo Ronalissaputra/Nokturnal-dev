@@ -13,7 +13,10 @@ export default ProfilScreen;
 
 const styles = StyleSheet.create({
   container: {
-    paddingHorizontal: 10,
+    paddingHorizontal: 20,
+    flex: 1,
+    justifyContent: 'center',
+    alignItems: 'center',
   },
   text: {
     fontSize: 50,
